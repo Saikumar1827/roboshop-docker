@@ -15,8 +15,8 @@ services:
     volumes:
     - redis:/data
   mysql:
-    image: mysql
-    container_name: mysql:v1
+    image: mysql:v1
+    container_name: mysql
     volumes:
     - mysql:/var/lib/mysql
   rabbitmq:
