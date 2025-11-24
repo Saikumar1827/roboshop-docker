@@ -5,7 +5,7 @@ services:
     depends_on: 
     - mongodb
   mongodb:
-    image: mongobd:v1
+    image: mongodb:v1
     container_name: mongodb
     volumes:
     - mongodb:/data/db
